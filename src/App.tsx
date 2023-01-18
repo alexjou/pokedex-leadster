@@ -1,14 +1,11 @@
+import { Box, Typography } from '@mui/material';
 import React from 'react';
 
 function App() {
   return (
-    <div>
-      <header>
-        <p>
-          Criando novo projeto
-        </p>
-      </header>
-    </div>
+    <Box>
+      <Typography>Pokedex</Typography>
+    </Box>
   );
 }
 
