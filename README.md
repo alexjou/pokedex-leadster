@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+<h1 align="center">Teste Leadster - POKEDEX</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+<img
+    alt="leadster"
+    src="./src/Components/assets/leadster.svg"
+    width=400
+    height=200    
+  />
+</h1>
 
-## Available Scripts
+<h1 align="center">
+<img
+    alt="leadster"
+    src="/public/poke.png"
+    width=600
+    height=300    
+  />
+</h1>
 
-In the project directory, you can run:
+# Link: [URL](https://alexjou.github.io/pokedex)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Tecnologias
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [React](https://pt-br.reactjs.org/)
+- [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
+- [MaterialUI](https://mui.com/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [Yup](https://github.com/jquense/yup)
+- [Formik](https://formik.org/)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Como usar
 
-### `npm run build`
+```bash
+# Clone o repositório
+$ git clone git@github.com:alexjou/pokedex.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Entre na pasta
+$ cd pokedex
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Instale as dependencias
+$ yarn install ou npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Inicie o site
+$ yarn start ou npm start
+```
 
-### `npm run eject`
+###
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## DESCRIÇÃO DO TESTE
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🏗 O que fazer?
 
-## Learn More
+* Utilização do React como lib do projeto.
+* Queremos ver a utilização de dependency managers (npm, webpack etc)
+* HTML5 escrito da maneira semântica
+* CSS3 com um pré processador (SCSS) e também Styled Components.
+* Layout responsivo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚨 Requisitos
+
+Você deve desenvolver uma aplicação e interface para o seguinte cenário.
+  - Uma listagem com paginação e filtro de busca para pokemons
+  - Na listagem cada pokémon deve exibir seu nome, foto e seus elementos representados por um ícone cada;
+  - Ao clicar no pokemon, deve abrir em uma página exclusiva com suas informações incluindo seus ataques e evoluções;
+  - Botão para alternar entre tema escuro / claro utilizando React Contexts
+  - Página dedicada para atualização de perfil - somente campos e validação
+Documentação completa da API: [https://pokeapi.co/]
+
+
+## 🕵🏻‍♂️ Itens a serem avaliados
+
+* Histórico de commits do git
+* As instruções de como rodar o projeto
+* Organização, semântica, estrutura, legibilidade, manutenibilidade, escalabilidade do seu código e suas tomadas de decisões
+* Alcance dos objetivos propostos
+* Componentização e extensibilidade dos componentes Javascript
