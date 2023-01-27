@@ -9,16 +9,6 @@
   />
 </h1>
 
-<h1 align="center">
-<img
-    alt="leadster"
-    src="/public/poke.png"
-    width=600
-    height=300    
-  />
-</h1>
-
-# Link: [URL](https://alexjou.github.io/pokedex)
 
 
 ### Tecnologias
